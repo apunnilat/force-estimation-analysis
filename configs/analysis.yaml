@@ -1,0 +1,47 @@
+# Settings for results_report.py and diagnostics_report.py.
+# These are the values used for the thesis.
+#
+# Both commands read this file, so they always use the same settings.
+# Every key is required; an unknown or misspelt key stops the program.
+# The geometry of the test object is in objects.yaml in this folder.
+# Relative paths are relative to the repository folder.
+
+data:
+  root: data/instrument_data         # folder containing the run folders
+  runs: [test_50, test_51, test_52, test_53, test_54, test_55, test_56, test_57]
+  object: instrument                 # key in objects.yaml
+
+dwell:
+  settle_frac: 0.40                  # share of each dwell discarded at the start (settling)
+
+evaluation:
+  val_frac: 0.20                     # share of training units held out for validation
+  seed: 42                           # validation split and MLP initialisation
+  n_boot: 10000                      # run-level bootstrap resamples, paired model contrasts
+  n_boot_transfer: 3000              # bootstrap resamples, remounting-transfer summary
+
+models:
+  use_mlp: true                      # false skips D2 (faster; no scikit-learn needed)
+  ridge_alpha: 1.0e-6                # regularisation of PA0, PA1, PA2 and D1
+  mlp:                               # D2
+    hidden_layers: [64, 64]
+    max_iter: 5000
+  compliant_lever:                   # fixed-point iteration of P2 and PA2
+    max_iter: 50
+    tol_N: 1.0e-9
+    relaxation: 0.5
+
+thresholds:                          # requirements the results are checked against
+  accuracy_N: 0.5                    # Test A RMSE
+  robustness_factor: 2.0             # Test B RMSE / Test A RMSE
+  moment_overflow_Nmm: 800           # sensor firmware limit, data-integrity check
+
+reference_values:                    # comparison values; not used for fitting
+  datasheet_accuracy_N: 1.25         # HEX-32 accuracy, 1 % of the 125 N full scale
+  known_fy_gain: 0.83                # Fy gain from the dead-weight correction
+  nominal_amplitude_N:               # loads used to normalise the RMSE
+    accuracy: 4.0                    # maximum training load (Test A)
+    robustness: 6.0                  # 1.5 x training load (Test B)
+
+figures:
+  dpi: 300                           # resolution of the PNG figures

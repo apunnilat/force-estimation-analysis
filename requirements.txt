@@ -1,0 +1,10 @@
+# The code needs Python 3.9 or newer; the pinned numpy and pandas versions below need 3.11 or newer.
+# Versions with which this code was tested. Before publishing, replace them with
+# the versions used for the thesis results (run `pip freeze` in that environment):
+# the MLP (D2) results can change slightly between scikit-learn versions.
+numpy==2.4.4
+pandas==3.0.2
+scikit-learn==1.8.0
+matplotlib==3.10.8
+PyYAML==6.0.3
+pytest==9.1.1

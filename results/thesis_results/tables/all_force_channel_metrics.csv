@@ -1,0 +1,769 @@
+group,run_id,evaluation,model,model_name,model_family,force_channel,n_dwells,normalisation_force_N,rmse_N,normalized_rmse_pct,standard_deviation_N,r2
+instrument,test_50,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.7618093597953914,44.04523399488479,1.856387608173345,-1.366111454270651
+instrument,test_50,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.3955337980302933,34.888344950757336,1.4397228522249206,0.049065145857237535
+instrument,test_50,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.022277450558073,25.556936263951822,1.050738783202246,0.7516604632065754
+instrument,test_50,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4255452743455765,35.638631858639414,1.437332072070949,0.22711232413340243
+instrument,test_50,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.7277457480592013,18.193643701480035,0.7547817324325475,0.5962832898433706
+instrument,test_50,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.6053063314732714,15.132658286831784,0.5647774715983893,0.8210958228069148
+instrument,test_50,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.022277450558073,25.556936263951822,1.050738783202246,0.7516604632065754
+instrument,test_50,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8043757029853212,20.10939257463303,0.8157224557094721,0.7539223105305772
+instrument,test_50,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.7283765429680993,18.209413574202483,0.7570991682418664,0.5955831199993169
+instrument,test_50,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.6117059193693587,15.292647984233968,0.5692287149155756,0.8172929044137309
+instrument,test_50,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.022277450558073,25.556936263951822,1.050738783202246,0.7516604632065754
+instrument,test_50,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.8061777525370742,20.154443813426855,0.8176431358279227,0.7528184956982704
+instrument,test_50,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.571603839396337,14.290095984908424,0.4351302103322948,0.7509378993954661
+instrument,test_50,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.2782511485686006,6.956278714215015,0.22016290151332862,0.9621954581673019
+instrument,test_50,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.5246756764160546,13.116891910401366,0.4059809428608146,0.9345830688634768
+instrument,test_50,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.47589887452238677,11.89747186305967,0.36563854472832047,0.9138641967201553
+instrument,test_50,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5329975320207521,13.324938300518802,0.4809022016076343,0.7834452229833617
+instrument,test_50,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.29789842582404785,7.447460645601196,0.2699439791548771,0.9566682265131186
+instrument,test_50,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.5183602363311363,12.959005908278407,0.418015547918884,0.9361484178827261
+instrument,test_50,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.46243095912000015,11.560773978000004,0.39312580910974926,0.918670489881243
+instrument,test_50,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.527089981754708,13.1772495438677,0.48175710452687065,0.7882190482309795
+instrument,test_50,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.1783892783269741,4.459731958174353,0.173405455761819,0.9844615553616228
+instrument,test_50,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.5081622469329578,12.704056173323943,0.4175352156801089,0.9386360796199971
+instrument,test_50,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.4350767950205838,10.876919875514595,0.3837621574748112,0.9280076758798553
+instrument,test_50,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.615638997949418,15.390974948735451,0.6489403796426906,0.7110853145798135
+instrument,test_50,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.36756091776506433,9.189022944126608,0.29271009211575205,0.9340327010463066
+instrument,test_50,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.42702989180982426,10.675747295245607,0.3899216526422986,0.9566663913214868
+instrument,test_50,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.48182532539070283,12.04563313476757,0.4652054246494704,0.9117055105833077
+instrument,test_50,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.5305747399161334,13.264368497903334,0.5034750178956845,0.7854094900188748
+instrument,test_50,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.2293063555182671,5.732658887956678,0.23533354918259514,0.974325485997687
+instrument,test_50,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.3654967464209017,9.137418660522542,0.36051778426008485,0.9682549997432267
+instrument,test_50,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.39483280468336945,9.870820117084236,0.37647798184163206,0.9407100873564413
+instrument,test_50,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,4.118561795785466,68.64269659642443,4.087266553010911,-0.6044603462962763
+instrument,test_50,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.527670714205339,58.79451190342232,3.2864361349564546,-0.17710144894291946
+instrument,test_50,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.4287510170282114,40.479183617136854,2.265402996494165,0.4420390490004613
+instrument,test_50,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.430541426474893,57.175690441248214,3.4287417517304064,0.006142245600378127
+instrument,test_50,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.323505831596525,22.05843052660875,1.3945146923059932,0.834312580785459
+instrument,test_50,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.9964252017824301,16.607086696373834,1.0437230342564405,0.9060866740467152
+instrument,test_50,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.4287510170282114,40.479183617136854,2.265402996494165,0.4420390490004613
+instrument,test_50,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.6973864588176668,28.289774313627778,1.6773991434579463,0.7566897748035413
+instrument,test_50,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.307939128377221,21.798985472953685,1.3782651353899602,0.8381871975314268
+instrument,test_50,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,1.0135623905144522,16.892706508574204,1.0465326714238377,0.9028285263243847
+instrument,test_50,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.4287510170282114,40.479183617136854,2.265402996494165,0.4420390490004613
+instrument,test_50,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.6967463948904389,28.279106581507317,1.6682629604541204,0.7568732388988763
+instrument,test_50,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.7386501545204728,12.310835908674546,0.7636414872151979,0.9483921934541739
+instrument,test_50,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.3578482953239802,5.9641382553996705,0.3280400286871375,0.9878874461649191
+instrument,test_50,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.7347404401863972,12.24567400310662,0.7488939935029334,0.9489370732877913
+instrument,test_50,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.6360039223371445,10.600065372285743,0.644744669667471,0.9658399512081611
+instrument,test_50,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.4526431477330936,7.544052462218226,0.47656646157060145,0.9806201810530119
+instrument,test_50,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.42220844328277696,7.036807388046282,0.44471477907499124,0.9831386771929648
+instrument,test_50,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7349379399910593,12.248965666517655,0.7706082644642426,0.9489096179500331
+instrument,test_50,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5547610790263051,9.246017983771752,0.5637494830727062,0.9740097257208722
+instrument,test_50,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.4461764122338684,7.43627353723114,0.4367923022243384,0.9811699692698047
+instrument,test_50,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.7751391630729316,12.918986051215526,0.775380287406327,0.9431674458637715
+instrument,test_50,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,0.9206400728657363,15.34400121442894,0.9600000369960904,0.9198289513907087
+instrument,test_50,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.7410560610213689,12.350934350356148,0.730765625682212,0.9536231740896081
+instrument,test_50,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,2.30600208387312,38.433368064552,2.43027857915635,0.49701248446751645
+instrument,test_50,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,2.8206415419017437,47.01069236502906,2.618287079781838,0.24745303160677834
+instrument,test_50,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,1.6075081347376348,26.79180224562725,1.1591931773474438,0.7555758162419978
+instrument,test_50,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,2.2991119098452404,38.318531830754004,2.1722129419132847,0.5536052105542963
+instrument,test_50,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.6111574054266816,10.185956757111361,0.6440777275099326,0.964669972792386
+instrument,test_50,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.3449044010700232,5.748406684500387,0.34259572592009524,0.988747855852937
+instrument,test_50,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.5968899096618014,9.948165161030024,0.586524935648247,0.9663002802367546
+instrument,test_50,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.531899108334597,8.86498513890995,0.5396271660335675,0.9761077297301602
+instrument,test_50,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.909653712400649,37.90223801669371,0.2259612669589187,
+instrument,test_50,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.7058960843685721,29.412336848690504,0.05601655626596095,
+instrument,test_50,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.29161844222155076,12.15076842589795,0.21211571026834844,
+instrument,test_50,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.6857600343791038,28.573334765795995,0.5258231446600482,0.6326040431627893
+instrument,test_50,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.9583987161224826,39.933279838436775,0.05987458234054817,
+instrument,test_50,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.41714503252268126,17.381043021778385,0.13901845567084706,
+instrument,test_50,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.29161844222155076,12.15076842589795,0.21211571026834844,
+instrument,test_50,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.6265193248063186,26.10497186692994,0.6339581560958782,0.6933386997220584
+instrument,test_50,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.9509978246073045,39.62490935863769,0.0557189264018116,
+instrument,test_50,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.42155826126005924,17.56492755250247,0.14065001371982305,
+instrument,test_50,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.29161844222155076,12.15076842589795,0.21211571026834844,
+instrument,test_50,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.6237386060116726,25.989108583819696,0.6317587909186587,0.6960548057582934
+instrument,test_50,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.485990416838999,20.24960070162496,0.18638670974009594,
+instrument,test_50,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.13610008152332176,5.670836730138407,0.13590891861709165,
+instrument,test_50,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.24378701542479542,10.157792309366476,0.24283546695439884,
+instrument,test_50,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.3235954399862727,13.483143332761365,0.30186494258952107,0.9181921806406957
+instrument,test_50,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.6878702876402552,28.661261985010636,0.17941232596122433,
+instrument,test_50,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.21973312803255776,9.155547001356574,0.17667345710371665,
+instrument,test_50,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.16715665819609668,6.964860758170696,0.16411476813409623,
+instrument,test_50,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.4279367276255321,17.83069698439717,0.35905842170192587,0.8569298102727744
+instrument,test_50,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.6645838777861576,27.69099490775657,0.19362414993407592,
+instrument,test_50,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.11440841183339277,4.767017159724699,0.0580194848687311,
+instrument,test_50,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.18875777717675024,7.864907382364594,0.1644424513367186,
+instrument,test_50,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.40430620151737856,16.846091729890773,0.35600046381327205,0.8722941370426476
+instrument,test_50,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.42475037247012837,17.69793218625535,0.41437293776403566,
+instrument,test_50,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.15574021291451962,6.489175538104984,0.1400599642976374,
+instrument,test_50,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.1728256052015362,7.201066883397342,0.14789768551608434,
+instrument,test_50,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.2796048298613896,11.650201244224569,0.2814360478192703,0.9389227649360807
+instrument,test_50,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.3491341633360237,14.547256805667654,0.08387767258609699,
+instrument,test_50,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.10158985502805869,4.2329106261691125,0.09891067435483884,
+instrument,test_50,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.15860892640985158,6.608705267077149,0.17044174619155908,
+instrument,test_50,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.22903562618790185,9.543151091162578,0.1870527935192058,0.9590177202630591
+instrument,test_51,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.52507983883315,38.126995970828744,1.6067418013148738,-0.7729746735833842
+instrument,test_51,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.509347457910672,37.7336864477668,1.5492322314985936,-0.11236804126644873
+instrument,test_51,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.17859094699477,29.46477367486925,0.9175609307390215,0.6699083747158296
+instrument,test_51,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4133971939803738,35.334929849509344,1.3893384621970555,0.24022884337346218
+instrument,test_51,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.60557248680177,15.13931217004425,0.6289656742664018,0.7204563424801689
+instrument,test_51,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.5462037701212996,13.655094253032491,0.5002315218076258,0.854326875747003
+instrument,test_51,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.17859094699477,29.46477367486925,0.9175609307390215,0.6699083747158296
+instrument,test_51,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8274727015847774,20.686817539619433,0.829438409046857,0.7395875741034242
+instrument,test_51,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.6091332591491769,15.228331478729423,0.6351552810918554,0.7171592383254105
+instrument,test_51,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.5609872233188421,14.024680582971053,0.5179381132025623,0.8463346363764394
+instrument,test_51,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.17859094699477,29.46477367486925,0.9175609307390215,0.6699083747158296
+instrument,test_51,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.831630248861979,20.790756221549476,0.8329120994025294,0.7369641718644089
+instrument,test_51,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.5213685848934368,13.034214622335922,0.35162895249189124,0.7927917272618022
+instrument,test_51,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.1432817727701673,3.5820443192541824,0.1262696879671458,0.9899757488249658
+instrument,test_51,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.5342472607359612,13.35618151839903,0.40357952539181546,0.9321745142990129
+instrument,test_51,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.4388526720612225,10.971316801530563,0.3403171532565355,0.9267526618548756
+instrument,test_51,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.42557953801840015,10.639488450460004,0.3817909247558664,0.8619365092462812
+instrument,test_51,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.17056756210414986,4.264189052603746,0.17025173890729448,0.9857942904102756
+instrument,test_51,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.556295966247691,13.907399156192273,0.39834257932444905,0.9264605925818832
+instrument,test_51,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.4162036514678682,10.405091286696704,0.3535903051471429,0.9341180985735034
+instrument,test_51,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.4356777516974973,10.891943792437432,0.38472630315101,0.855306794552781
+instrument,test_51,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.11526676262623162,2.8816690656557906,0.11556078186279903,0.9935124870286928
+instrument,test_51,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.4798374575612861,11.995936439032153,0.34790655663920783,0.9452862352357845
+instrument,test_51,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.38006381725941635,9.50159543148541,0.33850112112221725,0.9450626881919899
+instrument,test_51,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.5639760497205004,14.09940124301251,0.5530017513116618,0.7575407850187996
+instrument,test_51,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.19098809680812176,4.774702420203044,0.20117468338028302,0.9821892318753014
+instrument,test_51,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.44721363776698597,11.180340944174649,0.2869465838421427,0.9524732210093564
+instrument,test_51,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.42994010264435273,10.748502566108819,0.39480818051802846,0.9296975817000612
+instrument,test_51,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.4413080760590039,11.032701901475098,0.4145572496339546,0.8515428487403707
+instrument,test_51,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.0904470438679193,2.2611760966979824,0.09508353607153708,0.9960055333282367
+instrument,test_51,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.36953182405332097,9.238295601333025,0.30254568472757015,0.9675502021385856
+instrument,test_51,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.33639622209903974,8.409905552475994,0.30798442551350574,0.9569615549308151
+instrument,test_51,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,3.625133561871214,60.41889269785357,3.705125693701257,-0.24304210334606302
+instrument,test_51,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.7504526093227035,62.507543488711725,3.4722249245817594,-0.330470284085955
+instrument,test_51,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.239868791291434,37.3311465215239,2.2802154398361205,0.5254489133605735
+instrument,test_51,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.277422784159423,54.62371306932371,3.2566136051972494,0.092881902655082
+instrument,test_51,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.2325849708532461,20.543082847554103,1.2971885658535287,0.8562951085836858
+instrument,test_51,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.8475393690410566,14.125656150684279,0.8921166785918759,0.9320549885144863
+instrument,test_51,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.239868791291434,37.3311465215239,2.2802154398361205,0.5254489133605735
+instrument,test_51,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.55505636496443,25.9176060827405,1.568265691690131,0.7957833420058652
+instrument,test_51,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.2470806972705322,20.7846782878422,1.3130846699575454,0.8528951711290947
+instrument,test_51,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.8888312428148685,14.813854046914473,0.9360509428374711,0.9252731907827397
+instrument,test_51,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.239868791291434,37.3311465215239,2.2802154398361205,0.5254489133605735
+instrument,test_51,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.566550716905343,26.10917861508905,1.5766780349363054,0.7927532094878033
+instrument,test_51,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.7769488961794386,12.949148269657309,0.8035028039412748,0.9429017598432714
+instrument,test_51,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.32214940311277196,5.3691567185462,0.3166617686515675,0.9901835947981485
+instrument,test_51,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.6897417661402128,11.495696102336879,0.7194225466636764,0.9550001709032762
+instrument,test_51,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.6280057136572839,10.466761894288064,0.6371326341648227,0.9666937234093597
+instrument,test_51,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.2891696748746808,4.8194945812446806,0.3028668735680938,0.9920906042120256
+instrument,test_51,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.396204847387103,6.603414123118383,0.41740390858380894,0.985151677757769
+instrument,test_51,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7530782411599986,12.551304019333308,0.7833690236347599,0.9463563878140248
+instrument,test_51,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5188847718163777,8.64807953027296,0.5255810536558209,0.9772626029969945
+instrument,test_51,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.3340886065277824,5.568143442129706,0.3516538463468176,0.9894424986640209
+instrument,test_51,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.5734424187648237,9.557373646080395,0.5772653531744762,0.9688959138682314
+instrument,test_51,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,1.0070921243821305,16.784868739702173,1.0582073209091694,0.9040651911965937
+instrument,test_51,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.6963442519432085,11.60573753238681,0.7023934801517039,0.9590506620847092
+instrument,test_51,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,1.9878090819534016,33.13015136589002,2.0031555045080345,0.6262448755510552
+instrument,test_51,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,0.9182807427251787,15.304679045419645,0.9656603590089682,0.9202393345774447
+instrument,test_51,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,3.02097083817,50.3495139695,2.5921818532237197,0.13676134207795687
+instrument,test_51,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,2.1541347275901668,35.90224545983612,2.150599277170041,0.6081276523557921
+instrument,test_51,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.44149646483946475,7.358274413991079,0.43937689100379934,0.9815629142421375
+instrument,test_51,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.18007080423867322,3.0011800706445535,0.18980708077425767,0.9969329248069939
+instrument,test_51,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.6478960982627148,10.79826830437858,0.6290768998877305,0.9602946943083807
+instrument,test_51,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.4644401565860259,7.740669276433764,0.45260605378089813,0.9817837734048023
+instrument,test_51,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.40732061083500853,16.971692118125357,0.05981418533312649,
+instrument,test_51,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.8518720879117069,35.494670329654454,0.03307542551306515,
+instrument,test_51,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.36024227471507925,15.01009477979497,0.1763025662557163,
+instrument,test_51,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.5834868266624791,24.31195111093663,0.2603890125605888,0.7340180649307423
+instrument,test_51,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.8733068953088975,36.3877873045374,0.034320956778299175,
+instrument,test_51,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.24302773152001353,10.126155480000564,0.05606192213488356,
+instrument,test_51,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.36024227471507925,15.01009477979497,0.1763025662557163,
+instrument,test_51,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.5631760850076775,23.46567020865323,0.47746612761859203,0.752213044746426
+instrument,test_51,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.8832382441564938,36.801593506520575,0.03323443202860622,
+instrument,test_51,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.24297331512543432,10.123888130226431,0.056059745227813366,
+instrument,test_51,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.36024227471507925,15.01009477979497,0.1763025662557163,
+instrument,test_51,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.5683075236453073,23.679480151887805,0.48150877108827295,0.7476769988813583
+instrument,test_51,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.48734755074857616,20.30614794785734,0.3040884116739453,
+instrument,test_51,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.08922734704721891,3.7178061269674543,0.08897628300355645,
+instrument,test_51,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.22525668324811748,9.385695135338228,0.1817350908168909,
+instrument,test_51,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.3142237674172466,13.09265697571861,0.3081889648021366,0.9228620499922751
+instrument,test_51,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.5014558931662462,20.89399554859359,0.12278668689925905,
+instrument,test_51,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.1140944122555097,4.7539338439795715,0.022561634019525992,
+instrument,test_51,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.24976828214802219,10.407011756167591,0.1994903986879372,
+instrument,test_51,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.33008066815364084,13.753361173068368,0.3059484598616747,0.914880275399411
+instrument,test_51,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.4916695163793153,20.486229849138137,0.10094296296768084,
+instrument,test_51,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.13132857955893387,5.472024148288911,0.12222709982224952,
+instrument,test_51,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.2615953860580252,10.899807752417717,0.1619291835364164,
+instrument,test_51,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.33036255596565633,13.765106498569013,0.3197596449086147,0.9147348293873739
+instrument,test_51,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.5036756379346222,20.986484913942594,0.45813868685513326,
+instrument,test_51,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.07297343697420022,3.0405598739250093,0.052932217662893764,
+instrument,test_51,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.15963997822560663,6.651665759400277,0.10637360468793272,
+instrument,test_51,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.3079497758837461,12.831240661822754,0.3086902895357763,0.9259116683852738
+instrument,test_51,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.2726130513096985,11.358877137904104,0.05968980209745695,
+instrument,test_51,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.06832223638396433,2.846759849331847,0.05698868324713404,
+instrument,test_51,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.15403609487012968,6.418170619588737,0.1675787193400395,
+instrument,test_51,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.18503416103675757,7.709756709864899,0.15324599779460263,0.9732518431636119
+instrument,test_52,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.5504033342814871,38.760083357037175,1.6342674577592151,-0.8323429416181614
+instrument,test_52,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.456738188198115,36.41845470495287,1.5040823665251908,-0.03617487733391811
+instrument,test_52,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.1192604052889996,27.98151013222499,1.1021076043189324,0.7023056546651807
+instrument,test_52,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.3878737337805116,34.69684334451279,1.3918158807558605,0.2674213359048313
+instrument,test_52,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.6892608694237637,17.231521735594093,0.7195506271564136,0.6378532273791617
+instrument,test_52,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.6007116765979774,15.017791914949436,0.5960730268651588,0.823801504701456
+instrument,test_52,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.1192604052889996,27.98151013222499,1.1021076043189324,0.7023056546651807
+instrument,test_52,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8344017656116768,20.86004414029192,0.8479700044584522,0.7352080477645038
+instrument,test_52,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.6921029208055512,17.30257302013878,0.7238691548266792,0.6348605674739076
+instrument,test_52,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.6096203573490474,15.240508933726185,0.6036089928341581,0.8185366308282437
+instrument,test_52,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.1192604052889996,27.98151013222499,1.1021076043189324,0.7023056546651807
+instrument,test_52,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.8373345185626533,20.933362964066333,0.8509157295637745,0.7333433965777574
+instrument,test_52,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.44352968827456,11.088242206864,0.41653813581601923,0.8500443745169095
+instrument,test_52,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.21926302341357445,5.481575585339361,0.20255453331907916,0.9765252571130371
+instrument,test_52,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.4156528275119178,10.391320687797945,0.38960765627132626,0.9589446477525747
+instrument,test_52,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.373078245071121,9.326956126778024,0.3399687780436767,0.9470636243903091
+instrument,test_52,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5557100393627621,13.892750984069052,0.4813424690584059,0.7645959894100602
+instrument,test_52,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.2813167071245231,7.032917678113078,0.26431432329462196,0.9613578663570003
+instrument,test_52,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.4416458880205992,11.04114720051498,0.4000870780244949,0.953649258433466
+instrument,test_52,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.44083399292759134,11.020849823189783,0.38656770371545934,0.9260897784071968
+instrument,test_52,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.5684416033182059,14.211040082955147,0.485806280655688,0.7536860075719134
+instrument,test_52,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.15632312846745583,3.9080782116863957,0.1620883469762288,0.9880679099160942
+instrument,test_52,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.4206984022540342,10.517460056350854,0.39894508539928786,0.9579418631703694
+instrument,test_52,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.41815065966543785,10.453766491635946,0.3917545525248601,0.9335002633744606
+instrument,test_52,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.7398335276611684,18.49583819152921,0.7798251273509026,0.582760525639716
+instrument,test_52,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.26538558482833224,6.634639620708306,0.25279977840107176,0.9656105914898083
+instrument,test_52,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.388777929703663,9.719448242591575,0.4040892140229294,0.964082052624297
+instrument,test_52,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.5062711512983633,12.656778782459083,0.5145861936204815,0.9025188341960498
+instrument,test_52,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.559967916046868,13.999197901171701,0.5194276922215882,0.7609748161605517
+instrument,test_52,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.2399928848486219,5.999822121215548,0.2514712003566095,0.9718766675912022
+instrument,test_52,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.32918602706615013,8.229650676653753,0.33106547804147896,0.9742491784510318
+instrument,test_52,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.39980165590595546,9.995041397648887,0.3844594648227065,0.9392084061657385
+instrument,test_52,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,3.591328664283501,59.85547773805835,3.6388481500633234,-0.2199670994962124
+instrument,test_52,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.7023574980245293,61.70595830040882,3.4393428620812814,-0.2965656700501702
+instrument,test_52,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.4023750758234823,40.03958459705804,2.2982959012455333,0.4540920211677283
+instrument,test_52,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.2851432552741975,54.75238758790329,3.289350487937601,0.0886031578633465
+instrument,test_52,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.3088518682109909,21.814197803516517,1.3758313655579026,0.8379612779596541
+instrument,test_52,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.9440802840835786,15.734671401392978,0.9940845977585067,0.9156945461009312
+instrument,test_52,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.4023750758234823,40.03958459705804,2.2982959012455333,0.4540920211677283
+instrument,test_52,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.6709066202367118,27.84844367061186,1.6608645428325741,0.764222013954996
+instrument,test_52,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.3147195522400525,21.91199253733421,1.3817430836389335,0.8365051570928264
+instrument,test_52,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.9552462434408917,15.920770724014863,1.0057154092267904,0.9136885342627418
+instrument,test_52,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.4023750758234823,40.03958459705804,2.2982959012455333,0.4540920211677283
+instrument,test_52,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.6745535615588314,27.909226025980526,1.657447847498091,0.7631916668973162
+instrument,test_52,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.9074331620844225,15.123886034740375,0.768292188153862,0.9221126177220023
+instrument,test_52,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.4047045316812301,6.745075528020501,0.4225566647065286,0.9845077695080244
+instrument,test_52,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.9177669709589366,15.296116182648943,0.8558472091213803,0.9203285606983298
+instrument,test_52,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.78092187287355,13.015364547892501,0.7314962838033452,0.9484991889328726
+instrument,test_52,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.3569224902607377,5.948708171012295,0.36265510796101746,0.9879500389332833
+instrument,test_52,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.4195851837861014,6.9930863964350225,0.43563185224570666,0.9833475513461432
+instrument,test_52,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7840426029538986,13.06737671589831,0.7805618561882799,0.9418543622168651
+instrument,test_52,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5532233405998784,9.220389009997975,0.5439080240297196,0.974153610553112
+instrument,test_52,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.43303821597567116,7.217303599594519,0.45282852280645775,0.9822625875572426
+instrument,test_52,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.8253328532328801,13.755547553881335,0.8696035732105343,0.9355688206313751
+instrument,test_52,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,0.8410772528138946,14.017954213564911,0.8713189712874042,0.93308714047009
+instrument,test_52,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.7248235096265129,12.080391827108548,0.7345214051628732,0.9556326554087495
+instrument,test_52,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,2.0375580482318694,33.95930080386449,2.1148100535096894,0.6073028083978556
+instrument,test_52,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,2.4941703920295084,41.56950653382514,2.5954374676147833,0.41157643915715536
+instrument,test_52,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,0.943237393231753,15.720623220529218,0.9844150327250593,0.9158450175706372
+instrument,test_52,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,1.93754359300479,32.2923932167465,1.9704288257224525,0.6829689059997963
+instrument,test_52,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.8167543723198478,13.612572871997465,0.8306376462930947,0.93690125070615
+instrument,test_52,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.3578885935434454,5.964809892390757,0.37515904013062623,0.9878847179594588
+instrument,test_52,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.5836693453611755,9.727822422686259,0.4012829551148062,0.967776583561705
+instrument,test_52,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.6153161395592884,10.255268992654807,0.5798108436929663,0.9680261077119325
+instrument,test_52,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.6559813353401527,27.332555639173027,0.13772912188961273,
+instrument,test_52,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.7565583030565929,31.52326262735804,0.039629180913135754,
+instrument,test_52,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.20067557293326455,8.36148220555269,0.18154843375383295,
+instrument,test_52,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.5896221003916026,24.567587516316774,0.3144974526217151,0.7283951396326522
+instrument,test_52,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,1.0047776940319306,41.865737251330444,0.044499892377648974,
+instrument,test_52,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.18615203456187232,7.756334773411346,0.10532270407552943,
+instrument,test_52,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.20067557293326455,8.36148220555269,0.18154843375383295,
+instrument,test_52,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.6012491108705117,25.05204628627132,0.524269106830385,0.7175777395917338
+instrument,test_52,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,1.0075785947353812,41.98244144730755,0.04349651086454909,
+instrument,test_52,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.18684129990853854,7.785054162855773,0.10536126388004784,
+instrument,test_52,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.20067557293326455,8.36148220555269,0.18154843375383295,
+instrument,test_52,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.6028805800743992,25.120024169766634,0.5258081862077958,0.7160429735696532
+instrument,test_52,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.6533406736275696,27.222528067815404,0.343480235418222,
+instrument,test_52,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.11532640907841238,4.805267044933849,0.06895672980264453,
+instrument,test_52,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.18544434468201748,7.726847695084062,0.15552208731936445,
+instrument,test_52,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.3977200947993411,16.571670616639214,0.363086591649775,0.8764208798381274
+instrument,test_52,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.718450026392763,29.935417766365127,0.09009868118112498,
+instrument,test_52,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.19369198582075078,8.07049940919795,0.11523551854974937,
+instrument,test_52,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.11239333551128065,4.6830556463033615,0.08443743244492051,
+instrument,test_52,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.4344802594910764,18.103344145461516,0.3544048909333839,0.852521018837943
+instrument,test_52,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.7134408198785095,29.726700828271234,0.07885231962098758,
+instrument,test_52,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.13737570223189233,5.723987592995513,0.09793092253450753,
+instrument,test_52,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.1442158588395044,6.0089941183126845,0.09873631567699837,
+instrument,test_52,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.4276556640466101,17.818986001942086,0.36844070693239483,0.8571176820381664
+instrument,test_52,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.6465344220894914,26.93893425372881,0.5029388117892354,
+instrument,test_52,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.15262452069257784,6.3593550288574106,0.15317210113000965,
+instrument,test_52,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.21383618890719092,8.90984120446629,0.17717609430390335,
+instrument,test_52,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.4029172449976891,16.78821854157038,0.39397239947222906,0.8731700731902127
+instrument,test_52,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.306867620212154,12.786150842173084,0.07238262709002659,
+instrument,test_52,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.071954592385976,2.9981080160823335,0.07076315932241857,
+instrument,test_52,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.1189496201479695,4.956234172832063,0.12744301748315986,
+instrument,test_52,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.1945029664156385,8.104290267318271,0.15853767513798375,0.9704442156683727
+instrument,test_53,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.770350522917616,44.2587630729404,1.8639833015445906,-1.3891086426154562
+instrument,test_53,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.409464451436233,35.23661128590582,1.4600062164526175,0.02998533217834809
+instrument,test_53,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.0835954133025283,27.089885332563206,0.9886453090625511,0.7209753189114774
+instrument,test_53,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4485521545768143,36.213803864420356,1.453001787491871,0.20196373818669267
+instrument,test_53,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.7052963166225689,17.632407915564222,0.7189884136004199,0.6208067449100949
+instrument,test_53,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.5930179554425312,14.825448886063281,0.5413438544742233,0.8282859885506534
+instrument,test_53,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.0835954133025283,27.089885332563206,0.9886453090625511,0.7209753189114774
+instrument,test_53,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8212373204396887,20.530933010992218,0.8349700651986647,0.7434974379666557
+instrument,test_53,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.7060666934104195,17.651667335260488,0.723623809747233,0.6199779266860587
+instrument,test_53,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.6013951509153718,15.034878772884294,0.5507501765589901,0.8234003283619531
+instrument,test_53,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.0835954133025283,27.089885332563206,0.9886453090625511,0.7209753189114774
+instrument,test_53,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.8234855438557747,20.587138596394368,0.837126483170653,0.7420911102069282
+instrument,test_53,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.5530706927526806,13.826767318817016,0.48467105928737164,0.766826783421084
+instrument,test_53,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.2831609347904278,7.079023369760695,0.23760737985776098,0.9608495532300869
+instrument,test_53,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.4683435067657884,11.708587669144709,0.4168569733781675,0.9478760510001237
+instrument,test_53,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.44922635218895873,11.230658804723967,0.38414935043357895,0.92324886581337
+instrument,test_53,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5592462108916395,13.981155272290987,0.5067778624665583,0.7615905462298571
+instrument,test_53,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.30357054543158857,7.589263635789714,0.2726535333383332,0.9550024042743953
+instrument,test_53,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.46962494454649684,11.740623613662422,0.426131020017613,0.9475904274192908
+instrument,test_53,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.45660303291100635,11.415075822775158,0.402449095146055,0.9207075318267691
+instrument,test_53,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.5640280456769627,14.100701141924068,0.5097424968090406,0.757496075744564
+instrument,test_53,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.19326149866732012,4.831537466683003,0.18916271510218144,0.9817626919609078
+instrument,test_53,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.41572945190747956,10.39323629768699,0.37986332614845025,0.9589295094866677
+instrument,test_53,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.4196461288437382,10.491153221093455,0.38068442723702206,0.9330237550295769
+instrument,test_53,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.9652413997953685,24.131034994884214,0.9683823415080013,0.2897859595459267
+instrument,test_53,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.35515547233556555,8.878886808389138,0.21543702827160965,0.9384104445705542
+instrument,test_53,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.32498294698993474,8.124573674748369,0.3425335097214282,0.9749025585630592
+instrument,test_53,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.6227466807734596,15.568667019336491,0.6018294473638914,0.8525050348417329
+instrument,test_53,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.6097145164630181,15.242862911575452,0.5458881663328969,0.7166191867070875
+instrument,test_53,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.2590929918404123,6.477324796010307,0.2287152345726256,0.9672220808519119
+instrument,test_53,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.3458324829133376,8.64581207283344,0.3582527738185476,0.9715789662900992
+instrument,test_53,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.43146304447563527,10.786576111890883,0.4007673407547338,0.9291986465252653
+instrument,test_53,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,4.234902887146782,70.5817147857797,4.289775923514669,-0.6963861825129376
+instrument,test_53,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.505831790150955,58.43052983584925,3.2712137324780177,-0.16257228248765232
+instrument,test_53,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.4694961785207066,41.158269642011774,2.4127667290493524,0.42316111093843556
+instrument,test_53,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.4796393673351447,57.99398945558574,3.4815291367696823,-0.02250953275473422
+instrument,test_53,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.271484088164973,21.191401469416217,1.3401742857217949,0.8470816250624806
+instrument,test_53,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.9467939623081804,15.779899371803007,0.9935183661162227,0.9152091918793387
+instrument,test_53,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.4694961785207066,41.158269642011774,2.4127667290493524,0.42316111093843556
+instrument,test_53,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.69425519223525,28.237586537254163,1.6873863273702854,0.7575866435647871
+instrument,test_53,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.2698366394045366,21.163943990075612,1.3383977657167503,0.8474776378496709
+instrument,test_53,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.9708854954639848,16.181424924399746,1.0043873970261328,0.9108392237478435
+instrument,test_53,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.4694961785207066,41.158269642011774,2.4127667290493524,0.42316111093843556
+instrument,test_53,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.6983830655268293,28.306384425447153,1.684344785281309,0.7564039756703931
+instrument,test_53,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.6674838615116051,11.12473102519342,0.6733411432917056,0.9578575913209565
+instrument,test_53,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.38970544630871684,6.495090771811948,0.3430737421529881,0.9856348301454709
+instrument,test_53,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.9738878078627173,16.231463464378624,0.874014976121949,0.910286939471668
+instrument,test_53,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.717835288109273,11.963921468487882,0.7109478896014203,0.9564840466654653
+instrument,test_53,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.40373064030490596,6.728844005081766,0.4218310874537116,0.9845822415967823
+instrument,test_53,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.32699957911901656,5.449992985316943,0.3432849649709861,0.9898857845117508
+instrument,test_53,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7921736644193168,13.202894406988612,0.7400474500381339,0.9406420880118087
+instrument,test_53,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.54695102439632,9.115850406605334,0.5479018438607557,0.9747363687081873
+instrument,test_53,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.39288310666164594,6.5480517776940985,0.40258646617597216,0.9853996076888184
+instrument,test_53,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.6351626692692465,10.586044487820773,0.654179887848733,0.9618400545489827
+instrument,test_53,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,1.0301307493737832,17.168845822896387,1.0824062688193763,0.8996257029118435
+instrument,test_53,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.7346105799988482,12.24350966664747,0.7455430906296346,0.954426408838031
+instrument,test_53,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,4.346898549481678,72.44830915802797,4.347885327679946,-0.787297401089875
+instrument,test_53,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,3.6468455780444047,60.78075963407341,3.2225977104877344,-0.25797660011069756
+instrument,test_53,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,1.8168565052730166,30.280941754550273,1.5738179800366616,0.6877668062618143
+instrument,test_53,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,3.4397663307430646,57.32943884571774,3.1653629318674916,0.000789988659097629
+instrument,test_53,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.5893897782480907,9.823162970801512,0.5615506395890598,0.9671418570899476
+instrument,test_53,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.3232945352980109,5.388242254966848,0.3386808186093889,0.9901136827601135
+instrument,test_53,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.6082028336853201,10.136713894755335,0.6050384250837052,0.9650107451697523
+instrument,test_53,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.5233897063564725,8.723161772607876,0.5131829962392193,0.9768660789933648
+instrument,test_53,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.7665593015443272,31.939970897680297,0.13570662454173313,
+instrument,test_53,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.7100279813558695,29.584499223161234,0.045270834643130455,
+instrument,test_53,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.2634712601466149,10.977969172775621,0.17578915515599466,
+instrument,test_53,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.62213878462812,25.922449359505,0.2829111816411214,0.6976119786417545
+instrument,test_53,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.8476041261349229,35.31683858895512,0.04872910438847964,
+instrument,test_53,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.4593699301797541,19.140413757489757,0.08665382844565944,
+instrument,test_53,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.2634712601466149,10.977969172775621,0.17578915515599466,
+instrument,test_53,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.577024145167122,24.04267271529675,0.5565792379940994,0.7398774499173064
+instrument,test_53,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.854041511233692,35.5850629680705,0.04702505030009478,
+instrument,test_53,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.45958352257331697,19.149313440554874,0.0873501344359615,
+instrument,test_53,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.2634712601466149,10.977969172775621,0.17578915515599466,
+instrument,test_53,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.5802358779135924,24.17649491306635,0.5592854704045074,0.7369736921733145
+instrument,test_53,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.4966612161108027,20.694217337950114,0.2054200143528039,
+instrument,test_53,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.11981712817828839,4.992380340762017,0.10622238862583619,
+instrument,test_53,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.282379037869606,11.765793244566918,0.23970084439234202,
+instrument,test_53,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.33702938982711794,14.04289124279658,0.3251316821914435,0.9112587424943442
+instrument,test_53,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.6435367297054241,26.81403040439267,0.11575170049844821,
+instrument,test_53,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.1734807580240721,7.228364917669671,0.06847077823886177,
+instrument,test_53,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.14750757417296462,6.146148923873526,0.13418708902938242,
+instrument,test_53,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.3941207853450307,16.42169938937628,0.3231349537366997,0.8786475051242314
+instrument,test_53,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.6368491576582095,26.535381569092063,0.10711753832759925,
+instrument,test_53,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.14906514140403687,6.211047558501536,0.08303898321933324,
+instrument,test_53,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.1818115140581936,7.575479752424734,0.1336278082342041,
+instrument,test_53,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.39194076620322327,16.330865258467636,0.3420759914536703,0.8799862779593987
+instrument,test_53,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.38884335948846244,16.2018066453526,0.3675619396976912,
+instrument,test_53,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.17761037672771052,7.400432363654605,0.19393513410843508,
+instrument,test_53,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.15143322205443874,6.309717585601614,0.1272517144466947,
+instrument,test_53,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.26183749723917304,10.909895718298877,0.2665958019927547,0.9464383789371298
+instrument,test_53,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.3249739273436534,13.540580305985557,0.07892298647667842,
+instrument,test_53,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.08823925704404169,3.676635710168404,0.06873208023205135,
+instrument,test_53,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.14906761144539735,6.211150476891556,0.16001887492565958,
+instrument,test_53,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.21261496711103425,8.85895696295976,0.18307576449576493,0.9646834966877921
+instrument,test_54,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.6994361188544393,42.485902971360986,1.7832545060333418,-1.2015424337239522
+instrument,test_54,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.4352039054488472,35.88009763622118,1.4906600232371203,-0.005766723655221018
+instrument,test_54,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.3120006351359728,32.80001587839932,0.9412555788880527,0.5909500020058926
+instrument,test_54,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4909995572187873,37.27498893046968,1.443869146630961,0.1545082354903895
+instrument,test_54,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.6928132293960831,17.32033073490208,0.7210566955439381,0.634110694124328
+instrument,test_54,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.6319350603074059,15.798376507685147,0.5616836990868765,0.8050088279234285
+instrument,test_54,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.3120006351359728,32.80001587839932,0.9412555788880527,0.5909500020058926
+instrument,test_54,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.9310706664675799,23.276766661689496,0.9309606334888105,0.6702994729079321
+instrument,test_54,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.697517577731896,17.437939443297402,0.7287681107693864,0.6291248925544662
+instrument,test_54,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.645594151914993,16.139853797874824,0.5803418093563432,0.7964883745349146
+instrument,test_54,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.3120006351359728,32.80001587839932,0.9412555788880527,0.5909500020058926
+instrument,test_54,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.9353552349827678,23.383880874569197,0.9341122374729677,0.6672580823199102
+instrument,test_54,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.5769862088581612,14.42465522145403,0.4376413509299719,0.7462253498740214
+instrument,test_54,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.20741913241342425,5.185478310335606,0.2016841629719631,0.9789928239806678
+instrument,test_54,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.7437715758475463,18.594289396188657,0.4583362716826598,0.8685418673784611
+instrument,test_54,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.5565165282787785,13.912913206969463,0.4304408484131791,0.8822094398221654
+instrument,test_54,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5369599486277947,13.423998715694868,0.4869656923534535,0.7802134263305223
+instrument,test_54,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.3080802178654645,7.702005446636613,0.2969171377848598,0.9536555563319282
+instrument,test_54,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.6927572362206141,17.318930905515355,0.4756883376122756,0.8859565239535735
+instrument,test_54,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.5363928894030382,13.409822235075955,0.446641531019747,0.8905740371005298
+instrument,test_54,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.5015115848719084,12.53778962179771,0.48131587751855265,0.808274750571559
+instrument,test_54,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.22932559843156455,5.733139960789114,0.24091385842678817,0.9743211767130558
+instrument,test_54,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.5829272096162816,14.57318024040704,0.4205893910313639,0.9192510359237974
+instrument,test_54,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.46328833051270674,11.582208262817668,0.4228117852195097,0.9183686319058791
+instrument,test_54,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.7550748824309138,18.876872060772847,0.7959096674456487,0.5653922969251961
+instrument,test_54,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.36536938416896336,9.134234604224083,0.37940742855047616,0.9348169985952113
+instrument,test_54,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.4508215176572739,11.270537941431847,0.3549521511433085,0.9517032866275639
+instrument,test_54,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.5498099385996563,13.745248464991407,0.5452580084682526,0.8850313253434752
+instrument,test_54,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.5127942441672764,12.819856104181909,0.4800832293011402,0.7995511099251749
+instrument,test_54,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.2599280779995568,6.49820194998892,0.2538720468047108,0.9670104464223748
+instrument,test_54,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.47605401209322334,11.901350302330584,0.35167550507700435,0.9461456530844967
+instrument,test_54,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.4309477791309471,10.773694478273677,0.37424793332742756,0.9293676514987415
+instrument,test_54,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,4.11664575058787,68.61076250979784,4.112780994285478,-0.60296783332853
+instrument,test_54,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.5858030485079313,59.76338414179886,3.34284067487489,-0.21621590645433542
+instrument,test_54,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.2004404911210447,36.67400818535074,2.303386349355242,0.5420088659976607
+instrument,test_54,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.3983669653470807,56.63944942245135,3.3304581604333734,0.024697267145911805
+instrument,test_54,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.2592817315048055,20.988028858413426,1.3265647338443542,0.8500026380631681
+instrument,test_54,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.9171679213624648,15.286132022707747,0.9508787986672874,0.9204325338608426
+instrument,test_54,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.2004404911210447,36.67400818535074,2.303386349355242,0.5420088659976607
+instrument,test_54,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.5565909150279993,25.94318191713332,1.5751969233464613,0.7953800957742033
+instrument,test_54,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.2819103183652034,21.36517197275339,1.35091508886068,0.8445634667672705
+instrument,test_54,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.9700913793605241,16.168189656008735,0.9922659675794568,0.9109850185963569
+instrument,test_54,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.2004404911210447,36.67400818535074,2.303386349355242,0.5420088659976607
+instrument,test_54,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.5733520165139787,26.222533608566312,1.5904441320532892,0.7909497474880546
+instrument,test_54,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.7398470079424379,12.330783465707297,0.7482963105553551,0.9482248151065716
+instrument,test_54,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.4164453825489026,6.940756375815044,0.39202321539851775,0.9835958430033831
+instrument,test_54,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.8439782262509417,14.066303770849027,0.8873592866617046,0.932624763950852
+instrument,test_54,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.6911583509330225,11.51930584888371,0.702847697539946,0.9596583168714838
+instrument,test_54,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.42211159595972725,7.035193265995454,0.43401115785823874,0.9831464116981122
+instrument,test_54,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.3286952397504386,5.478253995840642,0.34594586377096054,0.9897806177493877
+instrument,test_54,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.747774138440951,12.462902307349182,0.764350767076787,0.9471093752313103
+instrument,test_54,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5308436437091977,8.84739406181996,0.5393744593489657,0.9762024560637754
+instrument,test_54,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.5617359298358245,9.362265497263742,0.5918567784702402,0.9701528944621184
+instrument,test_54,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.753600681462843,12.560011357714048,0.7942729208487626,0.9462819325856173
+instrument,test_54,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,1.1553221426757176,19.255369044595295,1.1768391417713038,0.8737463306715814
+instrument,test_54,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.859889623794161,14.331493729902682,0.8698248348334633,0.9375569207741816
+instrument,test_54,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,4.542214010466471,75.70356684110784,3.871120456225801,-0.9515199707499022
+instrument,test_54,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,3.049533646008654,50.825560766810895,3.172550340535439,0.12036060006079685
+instrument,test_54,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,2.2752163885664953,37.920273142774924,1.8173672739889346,0.510352851696414
+instrument,test_54,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,3.4209147504635995,57.01524584105999,3.471354670814512,0.011712283295895132
+instrument,test_54,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.680191701219667,11.336528353661116,0.7168270974466627,0.95623766636341
+instrument,test_54,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.3582766831543652,5.971278052572754,0.37632487804678993,0.9878584284130977
+instrument,test_54,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.6129550031293858,10.215916718823097,0.6387125774499555,0.9644618346761771
+instrument,test_54,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.5676667942732907,9.461113237888178,0.576785216577889,0.9727864075804951
+instrument,test_54,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,1.0508520884302173,43.78550368459239,0.1661752617260724,
+instrument,test_54,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.6551570290406459,27.298209543360244,0.05166439217376609,
+instrument,test_54,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.452013525170842,18.833896882118417,0.18490293622316906,
+instrument,test_54,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.7611038193301634,31.71265913875681,0.29711494951781936,0.547438262657061
+instrument,test_54,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,1.0081841668818698,42.00767362007791,0.05407287829495451,
+instrument,test_54,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.45547737201393446,18.978223833913937,0.11296575252678025,
+instrument,test_54,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.452013525170842,18.833896882118417,0.18490293622316906,
+instrument,test_54,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.6899785450059013,28.74910604191255,0.6248812909954075,0.6280700058058903
+instrument,test_54,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,1.020546309295063,42.52276288729429,0.05457739501281268,
+instrument,test_54,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.4533675827960285,18.890315949834523,0.11241254992726656,
+instrument,test_54,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.452013525170842,18.833896882118417,0.18490293622316906,
+instrument,test_54,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.6955508995234065,28.98128748014194,0.6287264250747335,0.6220382391970156
+instrument,test_54,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.674407256168714,28.100302340363086,0.22810593747827257,
+instrument,test_54,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.1393212833466352,5.805053472776467,0.07990600696206523,
+instrument,test_54,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.1942782713982673,8.094927974927806,0.1708668260431983,
+instrument,test_54,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.4131099990332945,17.21291662638727,0.3631192478897613,0.8666719755458683
+instrument,test_54,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.799333385521263,33.30555773005263,0.1488695485684601,
+instrument,test_54,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.21485292756552918,8.952205315230383,0.14511988554141084,
+instrument,test_54,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.17823810874277776,7.426587864282407,0.18458336232687908,
+instrument,test_54,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.48883005400669494,20.367918916945623,0.39747113448823496,0.8133165455467279
+instrument,test_54,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.7774659485546437,32.39441452311016,0.19813056011175553,
+instrument,test_54,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.14752115413013253,6.146714755422189,0.08208685980106524,
+instrument,test_54,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.21006919715443828,8.752883214768262,0.19878194872737626,
+instrument,test_54,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.47270316960751324,19.695965400313053,0.4068130739001625,0.8254310261273521
+instrument,test_54,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.5101944316299509,21.258101317914623,0.4302867284138389,
+instrument,test_54,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.12430071940345985,5.179196641810828,0.10989219121982943,
+instrument,test_54,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.1674454978392333,6.976895743301387,0.13597255903826866,
+instrument,test_54,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.31821744225034504,13.259060093764377,0.3123386514128432,0.9208887964434752
+instrument,test_54,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.3023062139432903,12.596092247637097,0.09413516697522034,
+instrument,test_54,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.09096425716328162,3.790177381803401,0.09836546475043932,
+instrument,test_54,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.17705407047620544,7.37725293650856,0.17322798379281848,
+instrument,test_54,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.20897502796760764,8.707292831983652,0.16997352246805703,0.9658823731921388
+instrument,test_55,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.654266976953028,41.3566744238257,1.7432132277632908,-1.0860685363214158
+instrument,test_55,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.45121404609801,36.28035115245025,1.4929882305064617,-0.028331155966122346
+instrument,test_55,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.1592851979913894,28.982129949784735,1.0408631218186855,0.6806338478518598
+instrument,test_55,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4360319876789425,35.90079969197356,1.4296166246557738,0.21569933969138788
+instrument,test_55,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.6690738599870277,16.726846499675695,0.687386019887941,0.6587556277906099
+instrument,test_55,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.5653036830244299,14.132592075610747,0.5348624912463592,0.8439608134694081
+instrument,test_55,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.1592851979913894,28.982129949784735,1.0408631218186855,0.6806338478518598
+instrument,test_55,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.838882243313657,20.972056082841426,0.8502909223916951,0.7323567121823833
+instrument,test_55,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.6731068799158486,16.827671997896214,0.6947061711813287,0.65462934733642
+instrument,test_55,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.5783234666036299,14.458086665090747,0.5483904718112586,0.8366904140640234
+instrument,test_55,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.1592851979913894,28.982129949784735,1.0408631218186855,0.6806338478518598
+instrument,test_55,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.8429062965115446,21.072657412788615,0.8541253525218169,0.7297828253093788
+instrument,test_55,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.6755913133647244,16.88978283411811,0.48376830868313603,0.6520751201941176
+instrument,test_55,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.31802485316228724,7.9506213290571806,0.23114109921481785,0.9506153285055858
+instrument,test_55,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.43160447262117085,10.790111815529272,0.361791955960855,0.955732991154689
+instrument,test_55,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.49794439137630836,12.44860978440771,0.3799256242291909,0.905699055443506
+instrument,test_55,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5624591550973983,14.061478877434958,0.46707130034499134,0.7588432888194467
+instrument,test_55,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.3116302107928374,7.790755269820935,0.2658144211329359,0.9525813533834052
+instrument,test_55,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.47783302857630305,11.945825714407576,0.41881497316817234,0.9457423930110794
+instrument,test_55,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.46252859105503574,11.563214776375894,0.3855756461911288,0.9186361444486718
+instrument,test_55,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.6000952162789837,15.002380406974591,0.487067234702155,0.7254902958793762
+instrument,test_55,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.21226392587712153,5.306598146928039,0.18245554458411856,0.9780000125854221
+instrument,test_55,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.48006694352947277,12.00167358823682,0.42109909855507044,0.9452338881603572
+instrument,test_55,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.4603022605127411,11.507556512818526,0.3881830633872622,0.9194175313059557
+instrument,test_55,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.5658137132570821,14.145342831427051,0.44439121261845,0.7559581491458346
+instrument,test_55,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.3593188256658982,8.982970641647455,0.3209418024517276,0.9369579987952728
+instrument,test_55,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.3466354267739234,8.665885669348086,0.3188237793287998,0.9714468388142842
+instrument,test_55,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.43566473948149154,10.891618487037288,0.36582721378663247,0.9278129696189299
+instrument,test_55,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.6490972786999017,16.227431967497544,0.5436423576988685,0.6788285377978722
+instrument,test_55,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.29667454572598273,7.4168636431495685,0.24785214512653983,0.9570235419558273
+instrument,test_55,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.3323498105152252,8.308745262880631,0.32163401906519046,0.9737518212269769
+instrument,test_55,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.4545325290327937,11.363313225819843,0.3953583839476258,0.9214250177729384
+instrument,test_55,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,3.925032389565979,65.41720649276631,3.9517612687185357,-0.45721725369808763
+instrument,test_55,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.638607874504363,60.64346457507272,3.3730237554313978,-0.25229983975200065
+instrument,test_55,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.3168880273285146,38.61480045547524,2.270270844692602,0.4922523693123815
+instrument,test_55,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.36716085422746,56.11934757045767,3.35412926570664,0.04252681086184196
+instrument,test_55,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.2301981934150363,20.503303223583938,1.2920970384646047,0.8568511100217198
+instrument,test_55,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.908388772679216,15.139812877986934,0.954914214613133,0.9219484861878251
+instrument,test_55,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.3168880273285146,38.61480045547524,2.270270844692602,0.4922523693123815
+instrument,test_55,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.6027609396069735,26.712682326782893,1.5926865280062839,0.7830616193776913
+instrument,test_55,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.2277282952001525,20.462138253335876,1.2901636903545788,0.8574253398671118
+instrument,test_55,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.9389204315149549,15.648673858582582,0.9766174272754011,0.9166135674341083
+instrument,test_55,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.3168880273285146,38.61480045547524,2.270270844692602,0.4922523693123815
+instrument,test_55,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.60798616025652,26.799769337608666,1.5922021127690937,0.7816448158559448
+instrument,test_55,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.9130225690947706,15.217042818246178,0.9408648142038122,0.9211501555425381
+instrument,test_55,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.42050989048517085,7.008498174752847,0.43215993712674317,0.9832740711584268
+instrument,test_55,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.7105735812649059,11.842893021081764,0.5130994635682136,0.9522409226501861
+instrument,test_55,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.7107164446443931,11.845274077406552,0.6920131693911303,0.9573428709376167
+instrument,test_55,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.24457703647536222,4.076283941256037,0.23788118267503083,0.9943419188541591
+instrument,test_55,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.3905044860187229,6.508408100312049,0.39919556881663276,0.9855758619751399
+instrument,test_55,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7434654525302783,12.391090875504638,0.676177424659974,0.947717132381158
+instrument,test_55,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5049925938327772,8.416543230546287,0.4765207248252033,0.9784638081191115
+instrument,test_55,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.6134787896416521,10.224646494027535,0.631865567028727,0.964401072092204
+instrument,test_55,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.6232902907191911,10.388171511986519,0.655991506985377,0.9632532835370876
+instrument,test_55,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,0.7232051361805063,12.053418936341771,0.7264343842949965,0.950527846144296
+instrument,test_55,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.6552029407857448,10.920049013095747,0.6535362746965088,0.9637464474444537
+instrument,test_55,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,2.215572021648037,36.926200360800614,2.3309081298385834,0.5356883727960609
+instrument,test_55,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,2.4325202114345155,40.54200352390859,2.5557536757147137,0.44030589878502135
+instrument,test_55,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,2.60267328174662,43.37788802911033,2.2337823876863947,0.35926695550770416
+instrument,test_55,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,2.4221080469751075,40.368467449585125,2.4053614448833263,0.504565872362756
+instrument,test_55,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.5965359596013298,9.942265993355496,0.5864745059231322,0.9663402356156421
+instrument,test_55,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.3984369743995635,6.640616239992725,0.4070083861146588,0.9849839024144456
+instrument,test_55,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.5705010682671532,9.508351137785887,0.5207621454897681,0.9692141790753489
+instrument,test_55,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.5291750317113487,8.819583861855813,0.49847056992799244,0.9763518275743583
+instrument,test_55,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.4964063745323549,20.68359893884812,0.1555661142468542,
+instrument,test_55,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.8192392762833917,34.13496984514132,0.04852067445362923,
+instrument,test_55,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.3069133547957489,12.788056449822871,0.17600576418172337,
+instrument,test_55,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.5807374874053602,24.19739530855668,0.2693487538473591,0.7365187271266477
+instrument,test_55,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.8177687476007164,34.073697816696516,0.054760877960085066,
+instrument,test_55,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.29064329360781443,12.110137233658936,0.10962313288138,
+instrument,test_55,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.3069133547957489,12.788056449822871,0.17600576418172337,
+instrument,test_55,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.5314806537788632,22.14502724078597,0.4720964823581902,0.7793189958271813
+instrument,test_55,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.8259395090328697,34.414146209702906,0.053969189503753734,
+instrument,test_55,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.2909980922585672,12.124920510773634,0.10945271637490078,
+instrument,test_55,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.3069133547957489,12.788056449822871,0.17600576418172337,
+instrument,test_55,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.535739915018337,22.322496459097373,0.4756098751966026,0.7757677683251134
+instrument,test_55,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.5177118339420395,21.571326414251644,0.2566142869399344,
+instrument,test_55,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.09588489406219787,3.995203919258245,0.08652262184176246,
+instrument,test_55,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.2023617925814599,8.43174135756083,0.17879430726134443,
+instrument,test_55,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.32566329800871047,13.56930408369627,0.30627980596080895,0.9171432940078827
+instrument,test_55,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.6042409069875461,25.17670445781442,0.1467992112167999,
+instrument,test_55,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.1585426074366669,6.605941976527787,0.059350832633272704,
+instrument,test_55,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.2010079331632286,8.37533054846786,0.13543101534571528,
+instrument,test_55,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.3788786178731927,15.786609078049699,0.3353469721523627,0.8878523382175775
+instrument,test_55,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.6155431070984105,25.647629462433773,0.10347873120970236,
+instrument,test_55,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.12759031660546194,5.316263191894247,0.05468880167223617,
+instrument,test_55,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.23036707509168358,9.59862812882015,0.1637249960344263,
+instrument,test_55,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.3865408968764472,16.1058707031853,0.3500958695768896,0.8832704180015248
+instrument,test_55,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.5644187810133716,23.517449208890483,0.5612476474887658,
+instrument,test_55,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.16813740286513537,7.0057251193806405,0.1835682345164467,
+instrument,test_55,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.19293373694777777,8.038905706157408,0.1407323087824927,
+instrument,test_55,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.3577998385762108,14.908326607342115,0.3663528810020217,0.8999838089959669
+instrument,test_55,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.3225855939008333,13.44106641253472,0.0891203277166867,
+instrument,test_55,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.09431591859431464,3.9298299414297766,0.04396129851647659,
+instrument,test_55,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.15108255961716538,6.2951066507152245,0.1639887367595815,
+instrument,test_55,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.21274624768576378,8.864426986906825,0.17661111455531778,0.9646398703872091
+instrument,test_56,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.7201539066923865,43.003847667309664,1.794744556982553,-1.2555475362799613
+instrument,test_56,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.4424665889589428,36.06166472397357,1.490673089453375,-0.01597161137275127
+instrument,test_56,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.2112693022210597,30.281732555526492,0.995137394353605,0.651349954705329
+instrument,test_56,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.472731322574377,36.81828306435943,1.4732508634192083,0.17509981680306863
+instrument,test_56,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.5638223031492736,14.09555757873184,0.5794341179857807,0.7576729615247716
+instrument,test_56,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.47916218561688206,11.979054640422051,0.4652883280772658,0.8878923827606308
+instrument,test_56,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.2112693022210597,30.281732555526492,0.995137394353605,0.651349954705329
+instrument,test_56,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8194846576063909,20.487116440159774,0.8195971329876947,0.7445911115583819
+instrument,test_56,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.568503462231112,14.2125865557778,0.5876496140461256,0.7536323959264581
+instrument,test_56,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.49627485140474903,12.406871285118726,0.48362720922657204,0.8797418319743597
+instrument,test_56,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.2112693022210597,30.281732555526492,0.995137394353605,0.651349954705329
+instrument,test_56,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.8239454345219429,20.59863586304857,0.8234958776799296,0.7418029618308897
+instrument,test_56,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.3705570410406517,9.263926026016293,0.30920002714198647,0.8953287256120241
+instrument,test_56,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.19467231323636566,4.866807830909141,0.1765880385417531,0.9814954543273072
+instrument,test_56,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.537225738142571,13.430643453564276,0.40013715313483894,0.9314161395823667
+instrument,test_56,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.3932011037321026,9.830027593302566,0.3204535519153786,0.9411991222238005
+instrument,test_56,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.3638158981637696,9.09539745409424,0.30598717072786263,0.8991024273287753
+instrument,test_56,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.18339229599401005,4.584807399850251,0.18424755562880413,0.9835777664906332
+instrument,test_56,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.5442379012844983,13.605947532112458,0.4084639425387796,0.9296140671695492
+instrument,test_56,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.39250886834194393,9.812721708548597,0.33131165085293174,0.9414059793164864
+instrument,test_56,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.3868502731524279,9.671256828810698,0.30915193165554705,0.8859216613375863
+instrument,test_56,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.08668748095475975,2.167187023868994,0.08543736375298912,0.9963307034405944
+instrument,test_56,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.5224053468583891,13.060133671459727,0.3897352383339073,0.9351479765659696
+instrument,test_56,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.37862699305896635,9.465674826474158,0.3289562718320475,0.94547728199911
+instrument,test_56,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.8868372314460649,22.170930786151622,0.740051514460106,0.4004778859571413
+instrument,test_56,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.2953651887674345,7.384129719185863,0.22622983594886986,0.9574020533552571
+instrument,test_56,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.3252033107114407,8.130082767786018,0.3031842120967434,0.9748685109878037
+instrument,test_56,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.5713953864917666,14.284884662294164,0.4953488045658799,0.8758268175647363
+instrument,test_56,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.4148146557259849,10.370366393149624,0.3704190446236069,0.868832706906417
+instrument,test_56,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.14027165567756514,3.5067913919391285,0.1410306847523015,0.9903925110425273
+instrument,test_56,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.3929030257888954,9.822575644722384,0.30807168005153746,0.9633158001244154
+instrument,test_56,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.339666563787519,8.491664094687975,0.29606330774757755,0.9561206739802932
+instrument,test_56,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,4.070316617790975,67.83861029651625,4.143158807814801,-0.5670909440711258
+instrument,test_56,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.586590076538804,59.77650127564673,3.354515846381187,-0.2167498460164614
+instrument,test_56,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.334922618552106,38.91537697586843,2.3375274488603353,0.4843170182271733
+instrument,test_56,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.409934964229191,56.83224940381985,3.4025973354495087,0.018046129440875913
+instrument,test_56,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.115068192927422,18.5844698821237,1.1753776730849261,0.8823909693248883
+instrument,test_56,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.837937149661197,13.965619161019951,0.8832457367873632,0.9335858367761368
+instrument,test_56,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.334922618552106,38.91537697586843,2.3375274488603353,0.4843170182271733
+instrument,test_56,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.5702844090893198,26.17140681815533,1.5782768572548938,0.7917641347776552
+instrument,test_56,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.1181527664161643,18.635879440269406,1.178610736277513,0.8817393939963991
+instrument,test_56,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.880050170968915,14.667502849481918,0.9235689351675247,0.9267424014202381
+instrument,test_56,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.334922618552106,38.91537697586843,2.3375274488603353,0.4843170182271733
+instrument,test_56,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.5786721790894147,26.31120298482358,1.5822355373465273,0.7895335841708726
+instrument,test_56,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.49603617811571465,8.267269635261911,0.4321321539082054,0.9767263488580349
+instrument,test_56,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.3148967160176498,5.248278600294163,0.33188337720357214,0.990620621155347
+instrument,test_56,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.8242569879282434,13.737616465470724,0.7560728114473426,0.93573669009027
+instrument,test_56,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.584411788013351,9.740196466889184,0.5478630660432613,0.9711572391466714
+instrument,test_56,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.2987523223493803,4.979205372489672,0.2952575756305429,0.9915577075053782
+instrument,test_56,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.49388998862593403,8.231499810432235,0.482520485283542,0.9769273084233873
+instrument,test_56,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.7771319836922145,12.952199728203574,0.7686463427212056,0.9428748463446827
+instrument,test_56,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5589020161744125,9.315033602906874,0.5360517185603493,0.9736202760320153
+instrument,test_56,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.4713861134471465,7.8564352241191076,0.47756930953431564,0.9789820001840224
+instrument,test_56,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.608009150811408,10.133485846856802,0.6378932907257463,0.965033026356269
+instrument,test_56,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,0.936937173817404,15.6156195636234,0.9870961789127396,0.9169654654610961
+instrument,test_56,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.6999360120997157,11.66560020166193,0.7080040101872781,0.9586271373079116
+instrument,test_56,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,3.152137321604081,52.53562202673468,2.6716927158517576,0.06017266349211803
+instrument,test_56,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,2.3138360670859206,38.56393445143201,2.350607320107436,0.49358916671347186
+instrument,test_56,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,1.8055482330399437,30.092470550665727,1.7008061258574418,0.6916414434567859
+instrument,test_56,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,2.486618283360667,41.44363805601112,2.2679523226555123,0.4778237206861722
+instrument,test_56,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.5000498155678563,8.334163592797605,0.4762017920702365,0.9763481912965469
+instrument,test_56,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.2700063931284231,4.500106552140385,0.2765405731028244,0.9931041801118419
+instrument,test_56,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.7652632898469576,12.754388164115959,0.7556261373709334,0.9446064018915117
+instrument,test_56,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.5503275307084731,9.172125511807884,0.5282289361750383,0.9744234847105894
+instrument,test_56,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.22485805545868395,9.369085644111832,0.11487701716145102,
+instrument,test_56,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.8213054742136853,34.22106142557023,0.040901963458276076,
+instrument,test_56,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.4062379938352541,16.926583076468923,0.22055082244293045,
+instrument,test_56,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.5447118916495579,22.69632881873158,0.30437348478416154,0.7681944961684065
+instrument,test_56,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.738386435339578,30.766101472482422,0.04812755556932318,
+instrument,test_56,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.2165041416536893,9.021005902237055,0.07926469277299612,
+instrument,test_56,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.4062379938352541,16.926583076468923,0.22055082244293045,
+instrument,test_56,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.5023670234937738,20.931959312240576,0.41820416764378515,0.8028338857078173
+instrument,test_56,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.7499736728973379,31.24890303738908,0.04421434312195493,
+instrument,test_56,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.2169110737035176,9.037961404313233,0.07920266633297156,
+instrument,test_56,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.4062379938352541,16.926583076468923,0.22055082244293045,
+instrument,test_56,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.5081142363581992,21.171426514924967,0.4226836011269823,0.7982968146954095
+instrument,test_56,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.333753555844209,13.906398160175376,0.12071767357562407,
+instrument,test_56,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.07724429209311377,3.2185121705464073,0.08388563785750937,
+instrument,test_56,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.288731467952286,12.03047783134525,0.29311280464349293,
+instrument,test_56,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.2586657929230315,10.77774137179298,0.2555782206433467,0.9477281309152339
+instrument,test_56,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.40966749448603546,17.069478936918145,0.16992532226736498,
+instrument,test_56,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.10594095686220796,4.414206535925333,0.023130340271063764,
+instrument,test_56,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.20340527143058484,8.475219642941035,0.20375257505112404,
+instrument,test_56,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.2710625062140317,11.294271092251321,0.24271790686214845,0.9425977482226313
+instrument,test_56,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.4127551896021981,17.198132900091586,0.13662165876305968,
+instrument,test_56,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.09727547301489413,4.053144708953922,0.08216620605949489,
+instrument,test_56,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.23754531984988125,9.89772166041172,0.2331268686374171,
+instrument,test_56,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.28062854640752444,11.692856100313518,0.2626483502661352,0.9384747022978124
+instrument,test_56,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.34440046405378083,14.350019335574203,0.333484506858834,
+instrument,test_56,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.09328789202778856,3.8869955011578567,0.1021421125052736,
+instrument,test_56,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.16622712582240265,6.92613024260011,0.1346952898643137,
+instrument,test_56,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.22726325982483017,9.469302492701258,0.23316837688114464,0.9596495396357748
+instrument,test_56,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.22558873658708228,9.39953069112843,0.07991862154319572,
+instrument,test_56,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.034330152064829686,1.430423002701237,0.036375459646133035,
+instrument,test_56,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.23725394655997697,9.885581106665708,0.25895943282054834,
+instrument,test_56,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.19005110941887424,7.918796225786426,0.17701790919288374,0.9717816998505118
+instrument,test_57,accuracy,P0,Direct-force equilibrium,Physical Models,Fx,10,4.0,1.579999011419013,39.49997528547532,1.6654341360371594,-0.9029658849235829
+instrument,test_57,accuracy,P0,Direct-force equilibrium,Physical Models,Fy,10,4.0,1.4722163959347445,36.805409898368616,1.5243148164521458,-0.05831109193383299
+instrument,test_57,accuracy,P0,Direct-force equilibrium,Physical Models,Fz,10,4.0,1.123305760139359,28.082644003483974,0.9588413089481773,0.7001498461011797
+instrument,test_57,accuracy,P0,Direct-force equilibrium,Physical Models,Pooled,10,4.0,1.4054220983161854,35.13555245790464,1.3945823295804964,0.2487786735641373
+instrument,test_57,accuracy,P1,Fixed-lever moment model,Physical Models,Fx,10,4.0,0.6346749650119595,15.866874125298988,0.6571729330829592,0.6929422185996545
+instrument,test_57,accuracy,P1,Fixed-lever moment model,Physical Models,Fy,10,4.0,0.5424065624411134,13.560164061027836,0.5341922231345163,0.8563452739477819
+instrument,test_57,accuracy,P1,Fixed-lever moment model,Physical Models,Fz,10,4.0,1.123305760139359,28.082644003483974,0.9588413089481773,0.7001498461011797
+instrument,test_57,accuracy,P1,Fixed-lever moment model,Physical Models,Pooled,10,4.0,0.8080497140140122,20.201242850350305,0.813405316901037,0.7516692417813569
+instrument,test_57,accuracy,P2,Compliant-lever moment model,Physical Models,Fx,10,4.0,0.6394940513031206,15.987351282578016,0.6648353359346766,0.6882615368299443
+instrument,test_57,accuracy,P2,Compliant-lever moment model,Physical Models,Fy,10,4.0,0.5561712230073054,13.904280575182634,0.5484379874037,0.8489617044551011
+instrument,test_57,accuracy,P2,Compliant-lever moment model,Physical Models,Fz,10,4.0,1.123305760139359,28.082644003483974,0.9588413089481773,0.7001498461011797
+instrument,test_57,accuracy,P2,Compliant-lever moment model,Physical Models,Pooled,10,4.0,0.81242330955313,20.310582738828252,0.817401012110245,0.7489737700825692
+instrument,test_57,accuracy,PA0,Affine direct-force model,Linear Error Models,Fx,10,4.0,0.6196836300498725,15.492090751246812,0.4506636540151891,0.7072766143406819
+instrument,test_57,accuracy,PA0,Affine direct-force model,Linear Error Models,Fy,10,4.0,0.3019408542634577,7.548521356586442,0.24031354170877584,0.9554842385420732
+instrument,test_57,accuracy,PA0,Affine direct-force model,Linear Error Models,Fz,10,4.0,0.3327479225865943,8.318698064664858,0.31811747866332646,0.9736888997196101
+instrument,test_57,accuracy,PA0,Affine direct-force model,Linear Error Models,Pooled,10,4.0,0.4419265628324944,11.048164070812359,0.3617959763717589,0.925722963897918
+instrument,test_57,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,4.0,0.5700929011018498,14.252322527546246,0.45383411699043796,0.752252866418943
+instrument,test_57,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,4.0,0.2435064935362899,6.087662338407247,0.23511684055867374,0.9710471619192124
+instrument,test_57,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,4.0,0.3926600819967151,9.816502049917878,0.35635959887046104,0.9633611519934797
+instrument,test_57,accuracy,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,4.0,0.42366782124471436,10.591695531117859,0.3659475853022723,0.9317338655882139
+instrument,test_57,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,4.0,0.6231871337517959,15.579678343794898,0.46711145304583773,0.7039573187802033
+instrument,test_57,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,4.0,0.16290199993228233,4.072549998307058,0.1702386507445647,0.9870424504005124
+instrument,test_57,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,4.0,0.3926890643196789,9.817226607991973,0.3601036049929945,0.9633557431517695
+instrument,test_57,accuracy,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,4.0,0.4355471526298773,10.888678815746932,0.38368349046460987,0.9278519312302923
+instrument,test_57,accuracy,D1,Quadratic regression,Data-Driven,Fx,10,4.0,0.7302428067950277,18.25607016987569,0.5182272663263087,0.5935080517701037
+instrument,test_57,accuracy,D1,Quadratic regression,Data-Driven,Fy,10,4.0,0.35919369721985844,8.979842430496461,0.23579233791567913,0.9370018983828907
+instrument,test_57,accuracy,D1,Quadratic regression,Data-Driven,Fz,10,4.0,0.4380708920821984,10.95177230205496,0.4526737458197118,0.9543966130696775
+instrument,test_57,accuracy,D1,Quadratic regression,Data-Driven,Pooled,10,4.0,0.5335980932899607,13.339952332249016,0.44708291398928207,0.8917113621408188
+instrument,test_57,accuracy,D2,Multilayer perceptron,Data-Driven,Fx,10,4.0,0.6492618460483419,16.231546151208548,0.5453652249158839,0.6786656622542099
+instrument,test_57,accuracy,D2,Multilayer perceptron,Data-Driven,Fy,10,4.0,0.27052055105129136,6.763013776282284,0.24794662009336155,0.9642669098949882
+instrument,test_57,accuracy,D2,Multilayer perceptron,Data-Driven,Fz,10,4.0,0.3174732703320369,7.936831758300923,0.3178718511776902,0.9760490559750837
+instrument,test_57,accuracy,D2,Multilayer perceptron,Data-Driven,Pooled,10,4.0,0.44553772404833614,11.138443101208404,0.40054124617951165,0.9245041086951962
+instrument,test_57,robustness,P0,Direct-force equilibrium,Physical Models,Fx,10,6.0,3.9011206724198018,65.01867787366336,3.928091503231811,-0.43951628976752866
+instrument,test_57,robustness,P0,Direct-force equilibrium,Physical Models,Fy,10,6.0,3.6264574569788346,60.44095761631391,3.3915813262888883,-0.24395018456695872
+instrument,test_57,robustness,P0,Direct-force equilibrium,Physical Models,Fz,10,6.0,2.2166804756664176,36.94467459444029,2.189616651528293,0.5352236649657265
+instrument,test_57,robustness,P0,Direct-force equilibrium,Physical Models,Pooled,10,6.0,3.3308461647284764,55.51410274547461,3.3155006631592867,0.06306805894703305
+instrument,test_57,robustness,P1,Fixed-lever moment model,Physical Models,Fx,10,6.0,1.210950553712786,20.182509228546433,1.2735385331590428,0.8612954731773034
+instrument,test_57,robustness,P1,Fixed-lever moment model,Physical Models,Fy,10,6.0,0.9044312961172281,15.073854935287136,0.9514798018471069,0.9226270815180886
+instrument,test_57,robustness,P1,Fixed-lever moment model,Physical Models,Fz,10,6.0,2.2166804756664176,36.94467459444029,2.189616651528293,0.5352236649657265
+instrument,test_57,robustness,P1,Fixed-lever moment model,Physical Models,Pooled,10,6.0,1.5489856405762543,25.816427342937573,1.5520112000658053,0.7973746967394603
+instrument,test_57,robustness,P2,Compliant-lever moment model,Physical Models,Fx,10,6.0,1.2131011746005682,20.218352910009468,1.2765647201139547,0.860802363463625
+instrument,test_57,robustness,P2,Compliant-lever moment model,Physical Models,Fy,10,6.0,0.9213744452759972,15.356240754599954,0.9709360866800123,0.9197009993502036
+instrument,test_57,robustness,P2,Compliant-lever moment model,Physical Models,Fz,10,6.0,2.2166804756664176,36.94467459444029,2.189616651528293,0.5352236649657265
+instrument,test_57,robustness,P2,Compliant-lever moment model,Physical Models,Pooled,10,6.0,1.552870209153105,25.88117015255175,1.5518744697740168,0.7963571290738112
+instrument,test_57,robustness,PA0,Affine direct-force model,Linear Error Models,Fx,10,6.0,0.9134257596321592,15.223762660535987,0.8696342894217267,0.9210805000229532
+instrument,test_57,robustness,PA0,Affine direct-force model,Linear Error Models,Fy,10,6.0,0.46906920430747834,7.817820071791306,0.4913608379880318,0.9791881035023566
+instrument,test_57,robustness,PA0,Affine direct-force model,Linear Error Models,Fz,10,6.0,0.8782587324353839,14.63764554058973,0.6020862987039576,0.9270403455969985
+instrument,test_57,robustness,PA0,Affine direct-force model,Linear Error Models,Pooled,10,6.0,0.7801091671230475,13.00181945205079,0.7162527529088831,0.9486063269898315
+instrument,test_57,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fx,10,6.0,0.18246829445296328,3.0411382408827214,0.16243738651405762,0.9968507101008577
+instrument,test_57,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fy,10,6.0,0.3641965084999178,6.069941808331964,0.3812703352247596,0.9874538819157408
+instrument,test_57,robustness,PA1,Affine fixed-lever model,Linear Error Models,Fz,10,6.0,0.8253367131548931,13.755611885914886,0.6663403741698304,0.9355682179656551
+instrument,test_57,robustness,PA1,Affine fixed-lever model,Linear Error Models,Pooled,10,6.0,0.5313863833926705,8.856439723211176,0.5158731551758853,0.9761537695088074
+instrument,test_57,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fx,10,6.0,0.62020189593802,10.336698265633666,0.6522249069329336,0.9636165402808187
+instrument,test_57,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fy,10,6.0,0.5544711134411026,9.241185224018375,0.5786619535846343,0.97091991539452
+instrument,test_57,robustness,PA2,Affine compliant-lever model,Linear Error Models,Fz,10,6.0,0.8369911878391906,13.949853130653176,0.8277699811898451,0.9337357043422418
+instrument,test_57,robustness,PA2,Affine compliant-lever model,Linear Error Models,Pooled,10,6.0,0.6813327273039191,11.355545455065318,0.6876083272848558,0.9607971721754875
+instrument,test_57,robustness,D1,Quadratic regression,Data-Driven,Fx,10,6.0,3.0385817285612355,50.64302880935392,2.8343129942172127,0.12666742607755055
+instrument,test_57,robustness,D1,Quadratic regression,Data-Driven,Fy,10,6.0,3.5969909887963443,59.94984981327241,3.274729587332783,-0.22381709260080607
+instrument,test_57,robustness,D1,Quadratic regression,Data-Driven,Fz,10,6.0,2.21866582687536,36.977763781255995,2.303703754424913,0.5343907461099453
+instrument,test_57,robustness,D1,Quadratic regression,Data-Driven,Pooled,10,6.0,3.0052066565641713,50.08677760940285,2.8007714849796823,0.23731083174137735
+instrument,test_57,robustness,D2,Multilayer perceptron,Data-Driven,Fx,10,6.0,0.5833051846371619,9.721753077286031,0.6025053278415439,0.9678167804371476
+instrument,test_57,robustness,D2,Multilayer perceptron,Data-Driven,Fy,10,6.0,0.33388973079057804,5.564828846509634,0.3497704509145372,0.9894550642282919
+instrument,test_57,robustness,D2,Multilayer perceptron,Data-Driven,Fz,10,6.0,0.6211016263828874,10.351693773048122,0.5540272675133198,0.9635109003230506
+instrument,test_57,robustness,D2,Multilayer perceptron,Data-Driven,Pooled,10,6.0,0.5283605211871486,8.806008686452477,0.5116872307500245,0.9764245704677068
+instrument,test_57,repeatability,P0,Direct-force equilibrium,Physical Models,Fx,6,2.4,0.454644934873001,18.94353895304171,0.10116522264513411,
+instrument,test_57,repeatability,P0,Direct-force equilibrium,Physical Models,Fy,6,2.4,0.8107060571816594,33.77941904923581,0.036661407892832995,
+instrument,test_57,repeatability,P0,Direct-force equilibrium,Physical Models,Fz,6,2.4,0.4418581961701877,18.41075817375782,0.17459835495606577,
+instrument,test_57,repeatability,P0,Direct-force equilibrium,Physical Models,Pooled,6,2.4,0.5941899229145171,24.757913454771547,0.21630393322875693,0.7241705746147189
+instrument,test_57,repeatability,P1,Fixed-lever moment model,Physical Models,Fx,6,2.4,0.8054299588269374,33.55958161778906,0.05774178283694031,
+instrument,test_57,repeatability,P1,Fixed-lever moment model,Physical Models,Fy,6,2.4,0.19252559349168494,8.021899728820205,0.08010844468705822,
+instrument,test_57,repeatability,P1,Fixed-lever moment model,Physical Models,Fz,6,2.4,0.4418581961701877,18.41075817375782,0.17459835495606577,
+instrument,test_57,repeatability,P1,Fixed-lever moment model,Physical Models,Pooled,6,2.4,0.5419170257053687,22.57987607105703,0.4292551099355998,0.7705671384770678
+instrument,test_57,repeatability,P2,Compliant-lever moment model,Physical Models,Fx,6,2.4,0.8188295134239344,34.11789639266394,0.058424469456121515,
+instrument,test_57,repeatability,P2,Compliant-lever moment model,Physical Models,Fy,6,2.4,0.19299348258000676,8.041395107500282,0.07953594005160716,
+instrument,test_57,repeatability,P2,Compliant-lever moment model,Physical Models,Fz,6,2.4,0.4418581961701877,18.41075817375782,0.17459835495606577,
+instrument,test_57,repeatability,P2,Compliant-lever moment model,Physical Models,Pooled,6,2.4,0.5486246202687859,22.85935917786608,0.4346182024959628,0.7648523640897895
+instrument,test_57,repeatability,PA0,Affine direct-force model,Linear Error Models,Fx,6,2.4,0.5533007369033626,23.05419737097344,0.35844219174462216,
+instrument,test_57,repeatability,PA0,Affine direct-force model,Linear Error Models,Fy,6,2.4,0.15621323365793663,6.508884735747359,0.12605457590959923,
+instrument,test_57,repeatability,PA0,Affine direct-force model,Linear Error Models,Fz,6,2.4,0.14489270263148776,6.0371959429786575,0.1231198468548466,
+instrument,test_57,repeatability,PA0,Affine direct-force model,Linear Error Models,Pooled,6,2.4,0.34231475530741673,14.263114804475698,0.3148602171956048,0.9084536002334558
+instrument,test_57,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fx,6,2.4,0.6126516194916142,25.52715081215059,0.08386701900059798,
+instrument,test_57,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fy,6,2.4,0.20109645679846733,8.379019033269472,0.0553960423046798,
+instrument,test_57,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Fz,6,2.4,0.16515793051200053,6.8815804380000225,0.11062393962905517,
+instrument,test_57,repeatability,PA1,Affine fixed-lever model,Linear Error Models,Pooled,6,2.4,0.38429976746180927,16.01249031090872,0.3213695516795505,0.8846200693193744
+instrument,test_57,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fx,6,2.4,0.628490757374003,26.18711489058346,0.09559576020479667,
+instrument,test_57,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fy,6,2.4,0.2114158691400672,8.8089945475028,0.11851578722646008,
+instrument,test_57,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Fz,6,2.4,0.20316332707783924,8.465138628243302,0.14601428552780626,
+instrument,test_57,repeatability,PA2,Affine compliant-lever model,Linear Error Models,Pooled,6,2.4,0.4004050612809213,16.683544220038385,0.3463234260755696,0.8747467085161107
+instrument,test_57,repeatability,D1,Quadratic regression,Data-Driven,Fx,6,2.4,0.4429389924320706,18.455791351336273,0.4677387380473759,
+instrument,test_57,repeatability,D1,Quadratic regression,Data-Driven,Fy,6,2.4,0.16960512904618866,7.066880376924528,0.1846916003276977,
+instrument,test_57,repeatability,D1,Quadratic regression,Data-Driven,Fz,6,2.4,0.17517001090426418,7.298750454344342,0.12888296644387315,
+instrument,test_57,repeatability,D1,Quadratic regression,Data-Driven,Pooled,6,2.4,0.29191630280824915,12.163179283677048,0.3001982350810263,0.9334256813709083
+instrument,test_57,repeatability,D2,Multilayer perceptron,Data-Driven,Fx,6,2.4,0.28195446345859504,11.748102644108128,0.06535387755065444,
+instrument,test_57,repeatability,D2,Multilayer perceptron,Data-Driven,Fy,6,2.4,0.1222683213272899,5.09451338863708,0.04186984721887962,
+instrument,test_57,repeatability,D2,Multilayer perceptron,Data-Driven,Fz,6,2.4,0.1444045194237276,6.016854975988649,0.15738676823216566,
+instrument,test_57,repeatability,D2,Multilayer perceptron,Data-Driven,Pooled,6,2.4,0.19604466080837749,8.168527533682395,0.15477498649901775,0.9699738210691626

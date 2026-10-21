@@ -1,0 +1,23 @@
+# Measurement data is stored outside the repository (see data/README.md)
+data/*
+!data/README.md
+
+# Generated outputs; only the final thesis versions are committed (see results/README.md)
+results/*
+!results/README.md
+!results/thesis_results/
+!results/thesis_diagnostics/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

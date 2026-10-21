@@ -1,0 +1,8 @@
+evaluation,winner,best_count,n_winner_rows
+accuracy,D1,1,1
+accuracy,D2,4,4
+accuracy,PA0,1,1
+accuracy,PA1,1,1
+accuracy,PA2,1,1
+robustness,D2,5,5
+robustness,PA1,3,3

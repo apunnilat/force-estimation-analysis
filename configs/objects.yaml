@@ -1,0 +1,19 @@
+# Geometry and material of the test objects. Lengths in mm, modulus in GPa.
+# The models use these values as fixed assumptions; they are never fitted.
+# Select the object with data.object in analysis.yaml.
+
+instrument:
+  sensor_to_tip_length_mm: 310       # lever arm L in M = r x F (sensor origin to tip)
+  bending_length_mm: 290             # unsupported length from the clamp to the tip
+  exposed_length_mm: 330             # shaft length outside the object body
+  shaft_outer_diameter_mm: 4.0
+  shaft_wall_mm: 0.3                 # hollow shaft
+  youngs_modulus_GPa: 200            # steel, handbook value
+
+screwdriver:
+  sensor_to_tip_length_mm: 50
+  bending_length_mm: 30
+  exposed_length_mm: 70
+  shaft_outer_diameter_mm: 4.0
+  shaft_wall_mm: 2.0                 # equal to the radius: solid shaft
+  youngs_modulus_GPa: 200

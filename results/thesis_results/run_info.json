@@ -1,0 +1,219 @@
+{
+  "command": "results_report.py",
+  "created_utc": "2026-10-21T09:48:29+00:00",
+  "git": {
+    "commit": null,
+    "note": "not a git repository"
+  },
+  "python": "3.13.3",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "PyYAML": "6.0.3"
+  },
+  "settings_files": {
+    "analysis": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\configs\\analysis.yaml",
+    "objects": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\configs\\objects.yaml"
+  },
+  "settings": {
+    "analysis.yaml": {
+      "data": {
+        "root": "data/instrument_data",
+        "runs": [
+          "test_50",
+          "test_51",
+          "test_52",
+          "test_53",
+          "test_54",
+          "test_55",
+          "test_56",
+          "test_57"
+        ],
+        "object": "instrument"
+      },
+      "dwell": {
+        "settle_frac": 0.4
+      },
+      "evaluation": {
+        "val_frac": 0.2,
+        "seed": 42,
+        "n_boot": 10000,
+        "n_boot_transfer": 3000
+      },
+      "models": {
+        "use_mlp": true,
+        "ridge_alpha": 1e-06,
+        "mlp": {
+          "hidden_layers": [
+            64,
+            64
+          ],
+          "max_iter": 5000
+        },
+        "compliant_lever": {
+          "max_iter": 50,
+          "tol_N": 1e-09,
+          "relaxation": 0.5
+        }
+      },
+      "thresholds": {
+        "accuracy_N": 0.5,
+        "robustness_factor": 2.0,
+        "moment_overflow_Nmm": 800
+      },
+      "reference_values": {
+        "datasheet_accuracy_N": 1.25,
+        "known_fy_gain": 0.83,
+        "nominal_amplitude_N": {
+          "accuracy": 4.0,
+          "robustness": 6.0
+        }
+      },
+      "figures": {
+        "dpi": 300
+      }
+    },
+    "objects.yaml": {
+      "instrument": {
+        "sensor_to_tip_length_mm": 310,
+        "bending_length_mm": 290,
+        "exposed_length_mm": 330,
+        "shaft_outer_diameter_mm": 4.0,
+        "shaft_wall_mm": 0.3,
+        "youngs_modulus_GPa": 200
+      },
+      "screwdriver": {
+        "sensor_to_tip_length_mm": 50,
+        "bending_length_mm": 30,
+        "exposed_length_mm": 70,
+        "shaft_outer_diameter_mm": 4.0,
+        "shaft_wall_mm": 2.0,
+        "youngs_modulus_GPa": 200
+      }
+    }
+  },
+  "input_files": [
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_50\\ground_truth.csv",
+      "bytes": 92240120,
+      "sha256": "e53de29aec354870f38f91f9d6cf96aa937b0324115f418db27dbda522b14295"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_51\\ground_truth.csv",
+      "bytes": 92036869,
+      "sha256": "20c32fc2078ed303de32cc52906ae4b6774d391898bfe87d45ed0d612e1dc1a6"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_52\\ground_truth.csv",
+      "bytes": 91813825,
+      "sha256": "f19d002f72571d1b744e5623d6e5591dedf7e55498cd2e30d5a282c887ac50a9"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_53\\ground_truth.csv",
+      "bytes": 92245463,
+      "sha256": "af194bd60b3e637af589a99a294c374a0223a5f7abdabf4a9b054a7839ff7d76"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_54\\ground_truth.csv",
+      "bytes": 92285243,
+      "sha256": "60d2df0b9430fcbeecbe78ab9ad62261883fb15856457caf413010efa818889a"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_55\\ground_truth.csv",
+      "bytes": 92169407,
+      "sha256": "d7b18c01ea8d0dc54604f805d625b72330b7e32882d7e2e51227296c40e57c5e"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_56\\ground_truth.csv",
+      "bytes": 91846385,
+      "sha256": "816c838b083ae698aa9ff8554344ccc8e784098c13679b9d65808fb6285c2d01"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_57\\ground_truth.csv",
+      "bytes": 92195172,
+      "sha256": "eaf0a89c0440151f08524e6bce8bbbc83d4554c13b1b7a39d55a996a151892f6"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_50\\alignment_log.csv",
+      "bytes": 41982721,
+      "sha256": "97662bc79b65119a4db136c31e1de660349e271238b54991ac449af2f1992541"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_51\\alignment_log.csv",
+      "bytes": 1652538,
+      "sha256": "bed3f3c5e59ffd7592a73da9a6ad9d7a8e02d37091287620c6bdebebb238649f"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_52\\alignment_log.csv",
+      "bytes": 14561155,
+      "sha256": "6113ce2b93c89db0a0f9d9236057beb344dc1e951a02a1197215db947be7d13d"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_53\\alignment_log.csv",
+      "bytes": 1165566,
+      "sha256": "02e8792f99d8cc876efd3c12a4058ec4c41401a814c7e67af32397037a2d63ed"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_54\\alignment_log.csv",
+      "bytes": 336020,
+      "sha256": "2c389ff079629a861e2f1a9ecedb06f41aef664a5598910d4374b51f02690d5f"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_55\\alignment_log.csv",
+      "bytes": 1709617,
+      "sha256": "8b70d4bbc3a783f91941f4b62f702ea033e2dcd5f4f14aaaa012c2ec844f1b0b"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_56\\alignment_log.csv",
+      "bytes": 738724,
+      "sha256": "6848a20850ad7fcb6698fa24d21b58af00f67a5c95c9d6bed655f6b3c187968a"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_57\\alignment_log.csv",
+      "bytes": 843161,
+      "sha256": "05fd9e3f243c0113f39393b1439bcbc0b5e3c8fb294713efb6a21eee9338a4e5"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_50\\weight_validation.csv",
+      "bytes": 4665204,
+      "sha256": "22709592748d14ce4acbf290ac15adc55a8c26421db82e463ffd873c4e5086cc"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_51\\weight_validation.csv",
+      "bytes": 64328536,
+      "sha256": "4278bf1353f272aadf5479b84146648c3fd2d28ff718f91a27d0c3961836ce35"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_52\\weight_validation.csv",
+      "bytes": 13313842,
+      "sha256": "e5fad161054a3a8321bfa2c07dabcdc7c339d764a27f16fe818b20bf95eca7a4"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_53\\weight_validation.csv",
+      "bytes": 3932116,
+      "sha256": "3e985cd74d2b25efb7a77ff118eaa0229e150c6148cf32c6057ae9f6ae83da56"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_54\\weight_validation.csv",
+      "bytes": 23489993,
+      "sha256": "243e3973f0511944413c5072e8aa689416a39346060e9d6d8926efac46065850"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_55\\weight_validation.csv",
+      "bytes": 12379907,
+      "sha256": "513c77b599cb69ae43788059e39619aae163b8d710b74200100be3a4830145c2"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_56\\weight_validation.csv",
+      "bytes": 3449863,
+      "sha256": "1d406694a6f9f456926803a99eb805cceaa61c14f1731a5b2389e6920891757b"
+    },
+    {
+      "path": "C:\\Users\\albin\\Desktop\\Masterarbeit\\force-estimation-analysis\\force-estimation-analysis\\data\\instrument_data\\test_57\\weight_validation.csv",
+      "bytes": 3898488,
+      "sha256": "4b31d576ecacb2bf8cf83b06f976d5e25e19c9794b341fa57b9799d2accc95b0"
+    }
+  ]
+}

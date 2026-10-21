@@ -1,7 +1,3 @@
-# Measurement data is stored outside the repository (see data/README.md)
-data/*
-!data/README.md
-
 # Generated outputs; only the final thesis versions are committed (see results/README.md)
 results/*
 !results/README.md
